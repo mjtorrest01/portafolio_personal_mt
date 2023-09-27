@@ -664,7 +664,7 @@ img {
   transform: translateX(.4rem);
 }
 
-.service__modal{
+.services__modal{
   position: fixed;
   top: 0;
   left: 0;
@@ -716,10 +716,11 @@ img {
   margin-right: var(--mb-0-25)
 }
 
-
-
 /** Active Modal */
-
+.active-modal{
+  opacity: 1;
+  visibility: visible;
+}
 
 /*todo==================== PORTFOLIO ====================*/
 
